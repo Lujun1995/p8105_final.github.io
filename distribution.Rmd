@@ -1,0 +1,17 @@
+---
+title: "Comparison of phthalate exposure in different groups of people"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+One goal of our study is to find out the difference of phthalate exposure level between different groups of people. Therefore, we need to compare phthalate exposure level between different groups of people. As the distribution of observed urine phthalate concentration is skewed, we applied natural logrism to it. Then, we devided people into subgroups and compared the [least square mean](https://rcompanion.org/handbook/G_05.html) of log(phthalate concentration) between each group.
+
+<br><img src=".\\pictures\\distribution.png" style="width:100%"><br>
+
+Plots above show least square means of log(sum-total exposure) of groups by race, poverty status and gender, and their 95% confidence intervals. The plots reveal several facts:
+
+* Compared to other race groups, levels of the phthalate exposure were significantly higher in non_hispanic_blacks.
+* Compared to the group who are not living in poverty, levels of the phthalate exposure were significantly higher in the group who are living in poverty.
+* Compared to females, levels of the phthalate exposure were higher in males.

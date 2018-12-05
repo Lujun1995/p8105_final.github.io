@@ -1,0 +1,41 @@
+name: "Analysis of plasticizer distribution and effects of plasticizer on obesity"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+    - text: Study overview
+      href: overview.html
+    - text: Visualization
+      menu:
+        - text: Phthalate percentage
+          href: percentage.html
+        - text: Phthalate distribution
+          href: distribution.html
+        - text: Phthalate-obesity
+          href: relationship.html
+  right:
+    - text: Download
+      menu:
+        - text: Report
+          href: report.pdf
+        - text: Data
+          href: data.rar
+    - icon: fa-video fa-lg
+      href: about.html
+    - icon: fa-envelope fa-lg
+      menu:
+        - text: email Yun
+          href: mailto:yh3094@cumc.columbia.edu
+        - text: email Jun
+          href: mailto:jl5297@cumc.columbia.edu
+        - text: email Chu
+          href: mailto:cy2522@cumc.columbia.edu
+        - text: email Chunxiao
+          href: mailto:cz2544@cumc.columbia.edu
+        - text: email Haoran
+          href: mailto:hh2767@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: https://github.com/hh2767/datascience_final_project
+output:
+  html_document:
+    theme: flatly

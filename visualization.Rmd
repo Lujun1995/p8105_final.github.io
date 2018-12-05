@@ -1,0 +1,18 @@
+---
+title: "Visualization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<br><img src=".\\pictures\\visualization.jpg" style="width:90%; border:10px solid"><br>
+
+To have an intuitive understanding of our interesting findings, please have a look at the following plots:
+
+* [Percent contribution of each types of phthalates.](percentage.html) 
+  
+* [Comparison of phthalate exposure in different groups of people.](distribution.html)
+  
+* [Relationship between phthlate exposure and obesity.](relationship.html)

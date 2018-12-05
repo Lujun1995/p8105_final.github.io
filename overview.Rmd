@@ -1,0 +1,76 @@
+---
+title: "Study overview"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<br><img src=".\\pictures\\5.jpg" style="width:90%; border:10px solid"><br>
+
+#Background
+
+[Plasticizers](https://www.plasticisers.org/), mainly phthalates, can [interrupt endocrine system](https://doi.org/10.1289/ehp.93101378) even if at very low level of exposure, and there is evidence of [plasticizers depositing in animal brain](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.498.4170&rep=rep1&type=pdf).  [Concerns](https://www.sciencedirect.com/science/article/pii/S0304389417304570?via%3Dihub) have been rising in pediatricians and scientists. Obesity, [which is a major public health problem](https://www.who.int/gho/ncd/risk_factors/overweight/en/) across the world, is also associated with plasticizer exposure. First fat and now sugar have been blamed for causing obesity, while increasing evidence shows that [plasticizer pollution is also playing an important role](http://ec.europa.eu/environment/aarhus/pdf/35/Annex_11_report_from_Lowell_Center.pdf). However, effects of plasticizers on bodyweight within different age and gender groups are different. With more detailed exposure monitoring data of plasticizer exposure available at [NHANES datasets](https://www.cdc.gov/nchs/nhanes/index.htm), we can now explore the relationship between body weight and plasticizer exposure.
+
+#Data source
+
+All data was retrieved from the the [National Health and Nutrition Examination Survey](https://www.cdc.gov/nchs/nhanes/index.htm). The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States. 
+
+In the study, we uesd demographics data ([DEMO2011-2012][1], [DEMO2013-2014][2] and [DEMO2015-2016][3]), phthalates metabolites data ([PHTHTE2011-2012][4], [PHTHTE2013-2014][5] and [PHTHTE2015-2016][6]) and body measures data ([BMX2011-2012][7], [BMX2013-2014][8] and [BMX2015-2016][9]).
+
+[1]:https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DEMO_G.XPT
+[2]:https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/DEMO_H.XPT
+[3]:https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/DEMO_I.XPT
+[4]:https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/PHTHTE_G.XPT
+[5]:https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/PHTHTE_H.XPT
+[6]:https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/PHTHTE_I.XPT
+[7]:https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/BMX_G.XPT
+[8]:https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/BMX_H.XPT
+[9]:https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/BMX_I.XPT
+
+#Analysis
+
+Our study has two main goals:
+
+* Comparing phthalate exposure between different groups of people
+
+* Assessing relationship between phthalate exposure and obesity, adjusting for race and stratifying for gender and age. 
+
+###Phthalate exposure comparison
+Phthalate exists in human body in different types. In the original dataset, eight types of phthalates in participants' urine were recorded. Therefore, we analyzed percent contribution of each type of phthalate to the sum-total phthalate and [visualized it](percentage.html). Then, we made some [plots](distribution.html) to compare phthalate exposure in different subgroups of people.
+
+
+###Phthalate-obesity relationship
+First, we made some [plots](relationship.html) and perceived association between phthalate exposure body mass index. We also noticed that the effects of phthalate exposure on BMI are defferent between different age and gender groups.
+
+Then, we fitted general linear model to analyze the relationship. The result is recorded in the following table. It shows odds of obesity changes associated with unit phthalate exposure change in each age and gender group, and their 95% percent confidence intervals.
+
+group    |female           |male             
+---------|-----------------|----------------
+adult    |1.18(1.09, 1.29) |1.11(1.02, 1.2)  
+children |1(0.89, 1.11)    |1.15(1.02, 1.29) 
+
+Among adults, for a one-unit increase in the sum-total phthalate exposure, we expect to see about 18% and 11% increase in the odds of being overweight/obese for females and males, respectively, adjusting for age, race and poverty status. 
+
+Among children, there is no association between phthalate and obesity in females statistically. While in males, for a one-unit increase in the sum-total phthalate exposure, we expect to see about 15% increase in the odds of being overweight/obese, adjusting for age, race and poverty status. 
+
+#Conclusions and discussions
+### Conclusion
+* Mono-ethyl phthalate (MEP) contributed most to the sum-total exposure among our study population.
+* Non hispanic blacks and people who are living in poverty are at higher exposure levels of phthalates metabolites, compared to other groups.
+* Phthalates and obesity are positively correlated among adults. And the association tends to be stronger in females than that in males. While among children, the positive correlation between phthalates and obesity is only observed among males, statistically. 
+
+###  Discussion
+We were expecting the plasticizers influence male population more for their lower baseline estrogen levels, but we found adult women are more influenced than men, and only male children are influenced.
+
+The difference in effects of plasticizers as obesogens are heterogeneous in the population, possibly by its multifaceted bioactivity as a selective estrogen receptor binder at different background level of estrogen or interaction with other hormonal axises.
+
+The obesogen effect on bodyweight in girls is not significant might be a result from confounding by the endocrine disrupting chemicals’ (EDCs) effect in precocious puberty.
+
+Laboratory studies find that early exposure to these pollutions can cause epigenetic modification and increase the risk of diseases for whole life. Our analysis did not include duration as an aspect of exposure due to limited data. Emerging researches about phthalates in nephrology and neurobiology have just started to illuminate more hazards we have never considered before.   
+
+The plastic products have brought huge convenience to modern life but the aftermath they bring along is more than ocean pollution and the damage they cause is not only to animals but also to ourselves. How to further regulate the application of such chemicals in industry and mitigate the harm in population who have been exposed should be studied more carefully.

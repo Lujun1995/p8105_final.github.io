@@ -1,0 +1,48 @@
+---
+title: "2007 Weather(NOAA) Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+
+```{r}
+
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Snow in each day of December in 2007(Observed by different stations)hfkahgdjmnsg,ajgjhdslgjsldkg
+#asaldjgklngasdkgjleiojilrrrrrrrrrrrrrrrnlkfgsjljlaijfoijowehiglkjnsadlnljsdhfowoehohgewjlsdlkgasdg;klasdhjnge,ahejgoewhgljllk;asgdlkngmd,s.
+
+```{r}
+ 
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Distribution of maximum temperature each month in 2007
+
+```{r}
+
+
+```
+
+### Precipitation in each month of 2007
+
+```{r}
+
+```

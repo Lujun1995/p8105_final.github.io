@@ -1,0 +1,14 @@
+---
+title: "relationship"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this part, we explore the association of the sum-total phthalate exposure and obesity outcome.
+
+<br><img src=".\\pictures\\obesity.png" style="width:100%"><br>
+
+Plots above show a positive association of phthalate and BMI among both children and adults. Among children, the association tends to be stronger in males than that in females. However, among adults, the association tends to be stronger in females than that in males. 

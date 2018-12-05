@@ -1,0 +1,13 @@
+---
+title: "Percent contribution of each types of phthalates"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Levels of eight types of phthalate in participants' urine were recorded. These phthalates are: MEP, MnBP, MiBP, MCPP, MBzP, MEHP, MEHHP, MEHHP. Details of these phthalates can be found [here](https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/PHTHTE_G.htm). The barplots below show percent contribution of each type of phthalate to the sum-total phthalate exposure among different subgroups. 
+
+<br><img src=".\\pictures\\percentage.png" style="width:100%"><br>
+
+As the plots show, mono-ethyl phthalate (MEP) contributed most to the sum-total exposure. And percent contribution patterns are different between different gender and age groups.
