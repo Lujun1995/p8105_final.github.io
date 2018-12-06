@@ -11,7 +11,7 @@ navbar:
           href: percentage.html
         - text: Phthalate exposure pattern
           href: distribution.html
-        - text: Phthalate-obesity
+        - text: Phthalate-obesity relationship
           href: relationship.html
   right:
     - text: Download
