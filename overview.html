@@ -295,7 +295,7 @@ div.tocify {
       <a href="percentage.html">Phthalate percentage</a>
     </li>
     <li>
-      <a href="distribution.html">Phthalate distribution</a>
+      <a href="distribution.html">Phthalate exposure pattern</a>
     </li>
     <li>
       <a href="relationship.html">Phthalate-obesity</a>
@@ -382,11 +382,7 @@ div.tocify {
 </div>
 <div id="analysis-and-results" class="section level1">
 <h1>Analysis and results</h1>
-<p>Our study has two main goals:</p>
-<ul>
-<li><p>Comparing phthalate exposure between different groups of people</p></li>
-<li><p>Assessing relationship between phthalate exposure and obesity, adjusting for race and stratifying for gender and age.</p></li>
-</ul>
+<p>Our study mainly consists of the following two parts:</p>
 <div id="phthalate-exposure-comparison" class="section level3">
 <h3>Phthalate exposure comparison</h3>
 <p>Phthalate exists in human body in different types. In the original dataset, eight types of phthalates in participants’ urine were recorded. Therefore, we analyzed percent contribution of each type of phthalate to the sum-total phthalate and <a href="percentage.html">visualized it</a>. Then, we made some <a href="distribution.html">plots</a> to compare phthalate exposure in different subgroups of people.</p>
@@ -394,7 +390,7 @@ div.tocify {
 <div id="assessing-phthalate-obesity-relationship" class="section level3">
 <h3>Assessing phthalate-obesity relationship</h3>
 <p>First, we made some <a href="relationship.html">plots</a> and perceived association between phthalate exposure body mass index. We also noticed that the effects of phthalate exposure on BMI are defferent between different age and gender groups.</p>
-<p>Then, we fitted general linear model to analyze the relationship. The result is recorded in the following table. It shows odds of obesity changes associated with unit phthalate exposure change in each age and gender group, and their 95% percent confidence intervals.</p>
+<p>Then, we fitted logistic regression model to analyze the relationship.We defined a categorical variable, where being overweight/obese was 1 and being normal weight/underweight was 0. Then, the logistic regression model is given by (log(p/(1-p)) ~ log_value + age + race + poverty_status), where p stands for the probability of being overweight/obese. Since the association between phthalates and obesity might be modified by gender and age, we stratified the result by gender and age. The result is recorded in the table below. It shows odds of obesity changes associated with unit phthalate exposure change in each age and gender group, and their 95% percent confidence intervals.</p>
 <table>
 <thead>
 <tr class="header">
@@ -427,16 +423,13 @@ div.tocify {
 <ul>
 <li>Mono-ethyl phthalate (MEP) contributed most to the sum-total exposure among our study population.</li>
 <li>Non hispanic blacks and people who are living in poverty are at higher exposure levels of phthalates metabolites, compared to other groups.</li>
-<li>Phthalates and obesity are positively correlated among adults. And the association tends to be stronger in females than that in males. While among children, the positive correlation between phthalates and obesity is only observed among males, statistically.</li>
+<li>Phthalates and obesity are positively correlated among adults, and the influence of phthalates tends to be stronger on females than that on males. While among children, the positive correlation between phthalates and obesity is only observed among males, statistically.</li>
 </ul>
 </div>
 <div id="discussion" class="section level3">
 <h3>Discussion</h3>
-<p>We were expecting the plasticizers influence male population more for their lower baseline estrogen levels, but we found adult women are more influenced than men, and only male children are influenced.</p>
-<p>The difference in effects of plasticizers as obesogens are heterogeneous in the population, possibly by its multifaceted bioactivity as a selective estrogen receptor binder at different background level of estrogen or interaction with other hormonal axises.</p>
-<p>The obesogen effect on bodyweight in girls is not significant might be a result from confounding by the endocrine disrupting chemicals’ (EDCs) effect in precocious puberty.</p>
-<p>Laboratory studies find that early exposure to these pollutions can cause epigenetic modification and increase the risk of diseases for whole life. Our analysis did not include duration as an aspect of exposure due to limited data. Emerging researches about phthalates in nephrology and neurobiology have just started to illuminate more hazards we have never considered before.</p>
-<p>The plastic products have brought huge convenience to modern life but the aftermath they bring along is more than ocean pollution and the damage they cause is not only to animals but also to ourselves. How to further regulate the application of such chemicals in industry and mitigate the harm in population who have been exposed should be studied more carefully.</p>
+<p>Previous research shows that phthalates have greater influence on BMI for females than for males. Our findings is consistent with this conclusion only for adult. Actually, our analysis demonstrates that the situation is exactly the opposite for children – phthalates only affect boys’ BMI but not girls’. That’s possibly because <a href="http://lorashahine.com/blog/2018/3/2/phthalates-and-your-reproductive-health">phthalates has similar effects on human body as estrogen does</a>. Just like estrogen, it causes fat accumulation in human body. However, for girls, it causes precocious, which is more serious than obesity and can increase the risk of diseases for whole life, instead of fat accumulation.</p>
+<p>Though plastic products have brought huge convenience to modern life, the phthalates contained in them not only does harm to animals but also to ourselves. It is well worth the effort to regulate the application of such chemicals in industry and mitigate the harm in population who have been exposed .</p>
 </div>
 </div>
 <div id="related-research" class="section level1">

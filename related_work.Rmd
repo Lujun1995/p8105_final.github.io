@@ -7,9 +7,11 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-<img src=".\\pictures\\related_research.jpg" style="width:80%">
+<br><center><img src=".\\pictures\\related_research.jpg" style="width:75%"></center><br>
 
-Here are some research papers or websites that are related to our study. For more information on how phthalates affect human health, please refer to these resources.
+
+
+Here are some research papers and websites that are related to our study. For more information on how phthalates affect human health, please refer to these resources.
 
 * Papers:
 

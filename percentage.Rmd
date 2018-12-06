@@ -10,4 +10,4 @@ Levels of eight types of phthalate in participants' urine were recorded. These p
 
 <br><img src=".\\pictures\\percentage.png" style="width:100%"><br>
 
-As the plots show, mono-ethyl phthalate (MEP) contributed most to the sum-total exposure. And percent contribution patterns are different between different gender and age groups.
+The plots show that mono-ethyl phthalate (MEP) contributed most to the sum-total exposure. And percent contribution patterns are different between different gender and age groups.

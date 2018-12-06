@@ -1,4 +1,4 @@
-name: "Analysis of plasticizer distribution and effects of plasticizer on obesity"
+name: "Analysis of plasticizer exposure patterns and effects of plasticizer on obesity"
 output_dir: "."
 navbar:
   title: "Home"
@@ -9,7 +9,7 @@ navbar:
       menu:
         - text: Phthalate percentage
           href: percentage.html
-        - text: Phthalate distribution
+        - text: Phthalate exposure pattern
           href: distribution.html
         - text: Phthalate-obesity
           href: relationship.html

@@ -1,5 +1,5 @@
 ---
-title: "Analysis of plasticizer distribution and effects of plasticizer on obesity"
+title: "Analysis of plasticizer exposure patterns and effects of plasticizer on obesity"
 author: "Jun Lu, Yun He, Chu Yu, Chunxiao Zhai, Haoran Hu"
 output:
   html_document
@@ -15,4 +15,4 @@ This website gives a concise introduction of our project on analyzing plasticize
  :--------------------------: | :------------------------: | :----------------------:
 Please watch our video for an narrated screencast of our analysis.|This is a concised overview of our project scope, data, approaches, and results.|We have some interesting findings, and we visualized them here. 
 
-A list of research papers or websites that are related to our study can be found [here](related_work.html).
+A list of research papers and websites that are related to our study can be found [here](related_work.html).
