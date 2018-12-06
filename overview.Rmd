@@ -57,7 +57,7 @@ Among children, there is no association between phthalate and obesity in females
 #Conclusions and discussions
 ### Conclusion
 * Mono-ethyl phthalate (MEP) contributed most to the sum-total exposure among our study population.
-* Non hispanic blacks and people who are living in poverty are at higher exposure levels of phthalates metabolites, compared to other groups.
+* Non hispanic blacks and people who are living in poverty are at higher exposure levels of phthalates, compared to other groups.
 * Phthalates and obesity are positively correlated among adults, and the influence of phthalates tends to be stronger on females than that on males. While among children, the positive correlation between phthalates and obesity is only observed among males, statistically. 
 
 ###  Discussion
