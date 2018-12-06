@@ -9,7 +9,7 @@ output:
 <img src=".\\pictures\\4.jpg" style="width:100%">
 
 
-This website gives a concise introduction of our project on analyzing plasticizer exposure patterns and effects of plasticizer on obesity. For detailed description of our project, please see our [report](report.pdf) or visit our [github repo](https://github.com/hh2767/datascience_final_project).
+This website gives a concise introduction of our project on analyzing plasticizer exposure patterns and effects of plasticizer on obesity. For detailed description of our project, please visit our [github repo](https://github.com/hh2767/datascience_final_project) and see our [report](https://github.com/hh2767/datascience_final_project/blob/master/report.md).
 
 |<c1> [Introduction Video](about.html) </c1> | [Study overview](overview.html)|  [Visualizations  of findings](visualization.html)
  :--------------------------: | :------------------------: | :----------------------:
