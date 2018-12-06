@@ -1,0 +1,44 @@
+---
+title: "Related research"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<img src=".\\pictures\\related_research.jpg" style="width:80%">
+
+Here are some research papers or websites that are related to our study. For more information on how phthalates affect human health, please refer to these resources.
+
+* Papers:
+
+1. [Phthalates and Their Alternatives: Health and Environmental Concerns] [1]
+2. [Gender- and Age-Specific Relationships Between Phthalate Exposures and Obesity in Shanghai Adults] [2]
+3. [Developmental Effects of Endocrine-disrupting Chemicals in Wildlife and Humans] [3]
+4. [DI-2-Ethylhexyl Phthalate and Endocrine Disruption: A Review] [4]
+5. [Phthalates Impact Human Health: Epidemiological Evidences and Plausible Mechanism of Action] [5]
+6. [Phthalate Exposure and Childhood Obesity] [6]
+7. [Endocrine Disruptors and Obesity] [7]
+
+[1]: <http://ec.europa.eu/environment/aarhus/pdf/35/Annex_11_report_from_Lowell_Center.pdf>
+[2]: <https://doi.org/10.1007/s00244-017-0441-6>
+[3]: <https://doi.org/10.1289/ehp.93101378>
+[4]: <https://doi.org/10.2174/1568008043340017>
+[5]: <https://doi.org/10.1016/j.jhazmat.2017.06.036>
+[6]: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4114051/>
+[7]: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5359373/>
+
+* Websites:
+
+1. [Plasticisers Information Center] [8]
+2. [Global Health Observatory (GHO) Data] [9]
+3. [Definition; epidemiology; and etiology of obesity in children and adolescents] [10]
+4. [Bisphenol A (BPA): Use in Food Contact Application] [11]
+5. [Endocrine Disruptors] [12]
+
+[8]: <https://www.plasticisers.org>
+[9]: <https://www.who.int/gho/ncd/risk_factors/overweight/en/>
+[10]: <https://www.uptodate.com/contents/definition-epidemiology-and-etiology-of-obesity-in-children-and-adolescents>
+[11]: <https://www.fda.gov/newsevents/publichealthfocus/ucm064437.htm>
+[12]: <https://www.niehs.nih.gov/health/topics/agents/endocrine/index.cfm>

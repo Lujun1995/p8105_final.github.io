@@ -32,7 +32,7 @@ In the study, we uesd demographics data ([DEMO2011-2012][1], [DEMO2013-2014][2] 
 [8]:https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/BMX_H.XPT
 [9]:https://wwwn.cdc.gov/Nchs/Nhanes/2015-2016/BMX_I.XPT
 
-#Analysis
+#Analysis and results
 
 Our study has two main goals:
 
@@ -44,7 +44,7 @@ Our study has two main goals:
 Phthalate exists in human body in different types. In the original dataset, eight types of phthalates in participants' urine were recorded. Therefore, we analyzed percent contribution of each type of phthalate to the sum-total phthalate and [visualized it](percentage.html). Then, we made some [plots](distribution.html) to compare phthalate exposure in different subgroups of people.
 
 
-###Phthalate-obesity relationship
+###Assessing phthalate-obesity relationship
 First, we made some [plots](relationship.html) and perceived association between phthalate exposure body mass index. We also noticed that the effects of phthalate exposure on BMI are defferent between different age and gender groups.
 
 Then, we fitted general linear model to analyze the relationship. The result is recorded in the following table. It shows odds of obesity changes associated with unit phthalate exposure change in each age and gender group, and their 95% percent confidence intervals.
@@ -74,3 +74,7 @@ The obesogen effect on bodyweight in girls is not significant might be a result 
 Laboratory studies find that early exposure to these pollutions can cause epigenetic modification and increase the risk of diseases for whole life. Our analysis did not include duration as an aspect of exposure due to limited data. Emerging researches about phthalates in nephrology and neurobiology have just started to illuminate more hazards we have never considered before.   
 
 The plastic products have brought huge convenience to modern life but the aftermath they bring along is more than ocean pollution and the damage they cause is not only to animals but also to ourselves. How to further regulate the application of such chemicals in industry and mitigate the harm in population who have been exposed should be studied more carefully.
+
+#Related research
+
+Impacts of phthalates on human health is a focused research area in recent years. [Here](related_work.html) are some research papers and websites related to our study. For more information on how phthalates affect human health, please refer to these resources.

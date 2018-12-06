@@ -6,7 +6,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-One goal of our study is to find out the difference of phthalate exposure level between different groups of people. Therefore, we need to compare phthalate exposure level between different groups of people. As the distribution of observed urine phthalate concentration is skewed, we applied natural logrism to it. Then, we devided people into subgroups and compared the [least square mean](https://rcompanion.org/handbook/G_05.html) of log(phthalate concentration) between each group.
+One goal of our study is to find out the difference of phthalate exposure level between different groups of people. Therefore, we need to compare phthalate exposure level between different groups of people. As the distribution of observed urine phthalate concentration is skewed, we applied natural logrism to it. Then, we devided people into subgroups and compared the [least square mean](https://rcompanion.org/handbook/G_05.html) of log(phthalate concentration) between each group.  Least square means are means for groups that are adjusted for other terms in the model. In this case, least square means are means of log(sum-total exposure) of subgroups, adjusting for all predictors in the model except for the predictor of interest. For example, least square mean of log(sum-total exposure) of males is the mean log(sum-total exposure) value for male, adjusting for race, poverty status, and BMI.
 
 <br><img src=".\\pictures\\distribution.png" style="width:100%"><br>
 
