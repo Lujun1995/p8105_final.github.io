@@ -36,7 +36,7 @@ In the study, we uesd demographics data ([DEMO2011-2012][1], [DEMO2013-2014][2] 
 
 Our study mainly consists of the following two parts:
 
-###Phthalate exposure comparison
+###Analyzing phthalate exposure pattern
 Phthalate exists in human body in different types. In the original dataset, eight types of phthalates in participants' urine were recorded. Therefore, we analyzed percent contribution of each type of phthalate to the sum-total phthalate and [visualized it](percentage.html). Then, we made some [plots](distribution.html) to compare phthalate exposure in different subgroups of people.
 
 
