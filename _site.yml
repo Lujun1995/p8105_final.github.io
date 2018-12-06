@@ -19,7 +19,7 @@ navbar:
         - text: Report
           href: report.pdf
         - text: Data
-          href: data.rar
+          href: phthalate_data.rar
     - icon: fa-video fa-lg
       href: about.html
     - icon: fa-envelope fa-lg
